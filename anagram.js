@@ -11,7 +11,15 @@ function Anagram(word) {
 }
 
 Anagram.prototype.matches = function (words) {
-//
-// YOUR CODE GOES HERE
-//
+	for(var i=0;i<words.length;i++){;
+		var mot= words[i]; 
+		this.inverse(mot);
+	}
 }
+
+Anagram.prototype.inverse = function (str) {
+
+	return mot;
+
+}
+
