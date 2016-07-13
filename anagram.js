@@ -10,6 +10,7 @@ function Anagram(word) {
   this.word = word;
 }
 
+
 Anagram.prototype.generateComparator(mot){
 	var a = mot.split("").sort();
 	return a.join().toUpperCase();
